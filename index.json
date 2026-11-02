@@ -1,0 +1,11 @@
+{
+  "org": "zopefoundation",
+  "repo": "ZODB",
+  "versions": [
+    {
+      "commit": "c50a0941d40b22ff5b6fb30a5eab625fa4beba62",
+      "tag": "",
+      "parsed_at": "2026-11-02T21:19:44.773556+00:00"
+    }
+  ]
+}
