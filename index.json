@@ -3,6 +3,11 @@
   "repo": "ZODB",
   "versions": [
     {
+      "commit": "49497c7ade7d0027a90ced224bdd4f10322f930d",
+      "tag": "new-doc",
+      "parsed_at": "2026-11-22T04:37:04.456372+00:00"
+    },
+    {
       "commit": "c50a0941d40b22ff5b6fb30a5eab625fa4beba62",
       "tag": "",
       "parsed_at": "2026-11-02T21:19:44.773556+00:00"
