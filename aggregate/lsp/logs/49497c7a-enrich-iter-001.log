@@ -1,0 +1,38 @@
+[2026-11-22T04:08:47Z] === ENRICH ITERATION 1 START | repo=zopefoundation/ZODB sha=49497c7a ===
+[2026-11-22T04:08:47Z] [iter=1] PHASE START: enrich repo=zopefoundation/ZODB sha=49497c7a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49497c7a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49497c7ade7d0027a90ced224bdd4f10322f930d.nq.gz
+[2026-11-22T04:08:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-22T04:08:57Z] [iter=1] AST store loaded triples=1058726 load_secs=10 mem_mb=867 MB
+[2026-11-22T04:08:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=867 MB
+[2026-11-22T04:08:59Z] [iter=1] LSP targets found call_sites=8673 imports=1008 extends=226 implements=0 secs=2
+[2026-11-22T04:09:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=867 MB
+[2026-11-22T04:09:04Z] [iter=1] Position index built positions=73873 nodes_with_types=94534 secs=3 mem_mb=867 MB
+[2026-11-22T04:09:04Z] [iter=1] Step 3: Starting LSP resolution mem_mb=867 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T04:09:04Z] [iter=1] Resolving target type target_type=call_site count=8673
+[2026-11-22T04:10:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=1 resolved=586 errors=0 current=src/ZODB/scripts/zodbload.py
+[2026-11-22T04:10:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=4 resolved=923 errors=0 current=src/ZODB/tests/BasicStorage.py
+[2026-11-22T04:11:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=7 resolved=1203 errors=0 current=src/ZODB/scripts/repozo.py
+[2026-11-22T04:13:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=9 resolved=1994 errors=0 current=src/ZODB/tests/TransactionalUndoStorage.py
+[2026-11-22T04:14:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=10 resolved=2250 errors=0 current=src/ZODB/tests/util.py
+[2026-11-22T04:15:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=15 resolved=2652 errors=0 current=src/ZODB/tests/ConflictResolution.py
+[2026-11-22T04:15:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=20 resolved=2942 errors=0 current=src/ZODB/tests/testCache.py
+[2026-11-22T04:16:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=23 resolved=3230 errors=0 current=src/ZODB/tests/RecoveryStorage.py
+[2026-11-22T04:16:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.1 files_done=28 resolved=3442 errors=0 current=src/ZODB/ExportImport.py
+[2026-11-22T04:17:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=33 resolved=3772 errors=0 current=src/ZODB/blob.py
+[2026-11-22T04:17:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=34 resolved=4009 errors=0 current=src/ZODB/POSException.py
+[2026-11-22T04:18:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=37 resolved=4264 errors=0 current=src/ZODB/scripts/migrate.py
+[2026-11-22T04:19:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=40 resolved=4580 errors=0 current=ez_setup.py
+[2026-11-22T04:19:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.0 files_done=44 resolved=4773 errors=0 current=src/ZODB/tests/test_datamanageradapter.py
+[2026-11-22T04:20:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=50 resolved=5095 errors=0 current=src/ZODB/interfaces.py
+[2026-11-22T04:21:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.4 files_done=53 resolved=5372 errors=0 current=src/ZODB/scripts/fsrefs.py
+[2026-11-22T04:21:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=63 resolved=5651 errors=0 current=src/ZODB/scripts/checkbtrees.py
+[2026-11-22T04:22:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=68 resolved=5874 errors=0 current=src/ZODB/tests/testconflictresolution.py
+[2026-11-22T04:22:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.1 files_done=81 resolved=6161 errors=0 current=src/ZODB/transact.py
+[2026-11-22T04:23:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=99 resolved=6447 errors=0 current=release.py
+[2026-11-22T04:23:28Z] [iter=1] Target type resolved target_type=call_site resolved=6504 errors=0 secs=864 mem_mb=867 MB
+[2026-11-22T04:23:28Z] [iter=1] Resolving target type target_type=import_statement count=1008
+[2026-11-22T04:23:34Z] [iter=1] Target type resolved target_type=import_statement resolved=788 errors=0 secs=6 mem_mb=867 MB
+[2026-11-22T04:23:34Z] [iter=1] Resolving target type target_type=extends_clause count=226
+[2026-11-22T04:23:36Z] [iter=1] Target type resolved target_type=extends_clause resolved=195 errors=0 secs=2 mem_mb=867 MB
+[2026-11-22T04:35:12Z] [iter=1] Step 5: Writing final enrichment file triples=102637
+[2026-11-22T04:35:13Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/49497c7ade7d0027a90ced224bdd4f10322f930d.nq.gz size_kb=2228
+[2026-11-22T04:35:13Z] [iter=1] PHASE END: enrich elapsed_s=1586 elapsed_min=26.4 total_triples=102637
